@@ -1,13 +1,12 @@
-#inlude <stdio.h>
-
+#include <stdio.h>
 
 /**
-* main - print the string in the put function
-* this program prints "programming is like building multilingual puzzles
-* Return; 0
+* main - printing
+*
+* Return always 0 (Sucessful)
 */
 int main(void)
 {
-      puts(*\"Programming is like building a multilingual puzzle");
-      Return (0);
+	puts("\"programming is like building a multilingual puzzle");
+	return (0);
 }
