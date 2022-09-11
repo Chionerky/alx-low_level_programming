@@ -1,10 +1,10 @@
-#inlude <stdio.h>
+#include <stdio.h>
 
 /**
-* main - Printing
-*
-* Return Always 0 (Sucessful)
-*/
+ * main - Entry point
+ *
+ * Return: Always 0 (Sucessful)
+ */
 int main(void)
 {
 	puts("\"Programming is like building a multilingual puzzle");
