@@ -1,12 +1,10 @@
-#include <stdio.h>
+#inlude <stdio.h>
 
 /**
- * main - prints the string in the pus function
- *
- * description: using the main function
- * this program prints "Programming is like building a multilingual puzzle
- * Return 0; (sucessful) 
- */
+* main - Printing
+*
+* Return Always 0 (Sucessful)
+*/
 int main(void)
 {
 	puts("\"Programming is like building a multilingual puzzle");
