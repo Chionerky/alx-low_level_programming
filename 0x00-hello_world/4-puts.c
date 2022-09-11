@@ -1,12 +1,14 @@
-#include <stdio.h>
+
+#include <studio.h>
 
 /**
-* main - printing
-*
-* Return always 0 (Sucessful)
+* main - prints the  exactly "Programming is like building a multilingual puzzle
+* Description: using the main function\
+
+* Return 0; (sucessful)
 */
 int main(void)
 {
-	puts("\"programming is like building a multilingual puzzle");
+	puts("\"Programming is like building a multilingual puzzle")
 	return (0);
 }
