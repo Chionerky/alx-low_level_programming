@@ -3,13 +3,14 @@
 #include <stdlib.h>
 
 /**
-* main - Prints the number to int if positive, negative 0r zero
+* main - Prints the number to int if
+* positive, negative 0r zero
 *
-* Desription: using the main fuction 
+* Desription - using the main fuction
 *
-* Return: Always 0 
-*/ 
-int main(void) 
+* Return: Always 0
+*/
+int main(void)
 {
 	int n;
 
