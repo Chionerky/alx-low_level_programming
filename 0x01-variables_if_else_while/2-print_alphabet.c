@@ -1,11 +1,11 @@
 #include <stdio.h>
 
 /**
-* main - Entry for putchar program
+* main - lowercase letters
 *
-* Description - program with the putchar method
+* Description - lowercase with putchar
 *
-*Return: Always 0
+* Return: Always 0
 */
 int main(void)
 {
@@ -13,6 +13,7 @@ int main(void)
 
 for (a = 'a'; a <= 'z'; a++)
 	putchar(a);
+
 	putchar('\n');
 return (0);
 }
