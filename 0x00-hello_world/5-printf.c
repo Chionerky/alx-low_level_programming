@@ -1,11 +1,10 @@
-#inlude <stdio.h>
+#include <stdio.h>
 
 /**
 * main -Entry point
 *
-* Description prints exactly with proper grammar
-*
-* Return: Always 0 (Sucessful)
+* Description "Programming is like building a multilingual puzzle
+* Return: Aways 0 (Sucess)
 */
 int main(void)
 {
