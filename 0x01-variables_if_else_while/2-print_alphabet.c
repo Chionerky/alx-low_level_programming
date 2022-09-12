@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
-* main - lowercase letters
+* main - Prints lowercase letters
 *
 * Description - lowercase with putchar
 *
@@ -11,10 +11,11 @@ int main(void)
 {
 	char a;
 
-for (a = 'a'; a <= 'z'; a++)
-	putchar(a);
+	for (a = 'a'; a <= 'z'; a++)
+		putchar(a);
 
 	putchar('\n');
-return (0);
+
+	return (0);
 }
 
