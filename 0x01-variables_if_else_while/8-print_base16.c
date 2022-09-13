@@ -14,7 +14,7 @@ int main(void)
 		putchar((num % 10) + '0');
 
 	for (a = 'a'; a <= 'f'; a++)
-		puthcar(a);
+		putchar(a);
 
 	putchar('\n');
 
