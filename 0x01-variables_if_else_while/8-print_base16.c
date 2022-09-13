@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /**
-* main - Prints all the base 16 as folloe
+* main - Prints all the base 16 as follows
 *
-* REturn:0
+* Return: 0
 */
 int main(void)
 {
