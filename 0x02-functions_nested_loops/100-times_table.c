@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
-* prints_times_table - Prints the times table of the num
-*			dtarting with 0.
-*@n: The value of the multiplied num
+* prints_times_table - Prints the times table of the digit,
+*		starting with 0.
+*@n: The value of the times table to be printed
 */
 void print_times_table(int n)
 {
