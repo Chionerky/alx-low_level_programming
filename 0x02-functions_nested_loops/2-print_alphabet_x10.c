@@ -1,7 +1,8 @@
 #include "main.h"
 
 /**
-* print - print_alphabet_x10 ten -letters
+* print_alphabet_x10 - print_alphabet_x10 ten -letters,
+* in lower case
 *
 * Return: Success
 */
