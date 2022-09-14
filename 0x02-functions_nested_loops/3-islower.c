@@ -1,4 +1,4 @@
-#inlude "main.h"
+#include "main.h"
 
 /**
 * _islower - checks if inputs is lower.
