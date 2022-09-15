@@ -1,4 +1,4 @@
-#include <stdio>
+#include <stdio.h>
 
 /**
 * main - prints the first 98 fib num, begin with
