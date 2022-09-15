@@ -19,7 +19,7 @@ int main(void)
 
 		if ((fibsum % 2) == 0)
 			tot_sum += fibsum;
-		
+
 		fib1 = fib2;
 		fib2 = fibsum;
 	}
