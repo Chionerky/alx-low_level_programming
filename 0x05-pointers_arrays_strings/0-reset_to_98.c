@@ -1,4 +1,4 @@
-#@include "main.h"
+#include "main.h"
 
 /**
 * rest_to_98 - updates the value of given integer to 98
