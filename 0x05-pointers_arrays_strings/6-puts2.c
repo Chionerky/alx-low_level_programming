@@ -1,21 +1,25 @@
 #include "main.h"
 
 /**
-* puts2 - prints only one character
-* @str: input
+* puts2 - prints everyother str
+* @str: The input str
 *
 * Return: void
 */
 void puts2(char *str)
 {
-	int i = 0;
+	int i;
+	int j = 0;
 
-	for (i str[i] != '\0'; i++)
+	while (str[j] != '\0')
 	{
-		if ((i % 2) == 0)
-			_putchar(str[i]);
-		else
-			continue;
+		j++;
 	}
-	-putchar('\n');
+
+	for (i = 0; i < j; i += 2)
+	{
+		_putchar(str[i]);
+	}
+
+	_putchar('\n');
 }
