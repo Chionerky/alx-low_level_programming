@@ -5,7 +5,7 @@
 * print_array - prints n element of an
 * array of integer
 * @a: Array of integer
-* @n numner of element
+* @n: numner of element
 *
 * Return: void
 */
@@ -22,6 +22,6 @@ void print_array(int *a, int n)
 			printf(", ");
 		}
 	}
-	
+
 	printf("\n");
 }
