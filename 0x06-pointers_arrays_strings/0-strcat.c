@@ -1,16 +1,19 @@
 #include "main.h"
 
 /**
-*_strcat - concentrates two strings
+* _strcat - concentrates two strings
+* for @dest and src
 *@dest: destination of string
 *@src: source of string
 *
-*Return: returns pointer to dest
+*Return: returns pointer to @dest
 */
 
 char *_strcat(char *dest, char *src)
 {
-	int index = 0, dest_len = 0;
+	int index, dest_len;
+
+	dest_len = 0;
 
 	while (dest[index++])
 		dest_len++;
