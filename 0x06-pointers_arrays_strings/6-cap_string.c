@@ -1,23 +1,6 @@
 #include "main.h"
 
 /**
-* _strlen - returns the length of a string
-* @s: string value
-*
-* Return: returns length as int
-*/
-
-int _strlen(char *s)
-{
-	int len = 0;
-
-	while (*(s + len) != '\0')
-		len++;
-
-	return (len);
-}
-
-/**
 * cap_string - function that capitalizes first character
 * of a word
 * @str: string to capitalize
