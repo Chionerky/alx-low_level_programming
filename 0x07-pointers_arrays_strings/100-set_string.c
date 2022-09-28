@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
-* prints_string - sets the value of ptr toa set
+* set_string - sets the value of ptr toa set
 * @s: pointer to ptr
 * @to: pointer to char
 *
