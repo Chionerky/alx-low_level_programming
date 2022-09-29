@@ -1,20 +1,38 @@
 #include "main.h"
 
 /**
-* _pow_recursion - returns the value of x to the power of y
-* @x: number
-* @y: power
+* helperfunction - checks if sqrt of number exists
+* @num: number
+* @psqrt: possible sqrt of number
 *
-* Returns:x to the pow of y.
-* -1 if x < 0.
+* Return: sqrt of a number at -1 for error
 */
-int _pow_recursion(int x, int y)
+int helperfunction(int num, int psqrt)
 {
-	if (y < 0)
+	if ((psqrt * psqrt) == num)
+	{
+		return (psqrt);
+	}
+	else
+	{
+		if ((psqrt * psqrt) > num)
+			return (-1);
+		else
+			return (helperfunction(num, psqrt + 1));
+	}
+}
+
+/**
+* _sqrt_recursion - returns the natural square root of a number.
+* @n: number to find sqrt of
+*
+* Return: squareroot of n.
+* -1 if n does not have a natural sqrt
+*/
+int _sqrt_recursion(int n)
+{
+	if (n < 0)
 		return (-1);
-	if (y == 0)
-		return (1);
-	if (y == 1)
-		return (x);
-	return (x * _pow_recursion(x, y - 1));
+	else
+		return (helperfunction(n, 0));
 }
