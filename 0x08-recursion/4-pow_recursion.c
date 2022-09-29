@@ -1,12 +1,11 @@
 #include "main.h"
 
 /**
-* _pow_recursion - returns the value of x to the power of y
+* _pow_recursion - returns the value of x to the pow of x
 * @x: number
 * @y: power
 *
-* Returns:x to the pow of y.
-* -1 if x < 0.
+* Return: x to the pow of y
 */
 int _pow_recursion(int x, int y)
 {
