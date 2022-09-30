@@ -7,7 +7,7 @@
  * @argv: array of arg
  * @argc: arg count
  *
- * Return: Always 0
+ * Return: Always (0) success
  */
 int main(int argc, char *argv[])
 {
@@ -18,3 +18,4 @@ int main(int argc, char *argv[])
 		printf("%s\n", argv[n]);
 	}
 	return (0);
+}
