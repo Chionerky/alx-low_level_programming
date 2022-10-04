@@ -5,8 +5,9 @@
 * str_concat - concatenating string functions
 * @s1: pointer to str
 * @s2: pointer to str
-* Return: pointer to str s1 + s2 and
+* Return: pointer to str s1, s2 and
 * null bytes
+* NULL on failure
 */
 char *str_concat(char *s1, char *s2)
 {
@@ -41,7 +42,7 @@ char *str_concat(char *s1, char *s2)
 	j = 0;
 	while (i <= size)
 	{
-		nstr[i] = s2[i];
+		nstr[i] = s2[j];
 		i++;
 		j++;
 	}
