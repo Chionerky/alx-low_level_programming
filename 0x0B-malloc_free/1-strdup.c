@@ -1,20 +1,18 @@
 #include "main.h"
-#include <stdlib>
+#include <stdlib.h>
+
 /**
- * _strdup - returns pointer to a newly allocated space
- * in memory with a duplicated str
- * @str: pointer to str duplicate
- *
- * Returns: NULL if str is null
- * pointer NULL if str on success
- * NULL if mem was nt enough
- */
+* _strdup - for string duplication functions
+* @str: string to be duplicated
+*
+* Return: a string duplicate copy
+*/
 char *_strdup(char *str)
 {
 	char *nstr;
 	unsigned int len, i;
 
-	/* check int len, i; */
+	/* check if str is null */
 	if (str == NULL)
 	{
 		return (NULL);
