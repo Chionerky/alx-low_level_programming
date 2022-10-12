@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
-* array-iterator - function that executes function given as param
+* array_iterator - function that executes function given as param
 * @array: array of elements.
 * @size: size of array.
 * @action: func ptr.
