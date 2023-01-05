@@ -1,19 +1,27 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
-* _strlen - a function that returns the length of a string.
-* @s: string to count
+* _atoi -converts a string to an int
+* @s: string input
 *
-*Return: String length
+* Return: converted integer frm str
 */
-int _strlen(char *s)
+
+int _atoi(char *s)
 {
-	int c = 0;
+	unsigned int num = 0;
+	int sign = 1;
 
-	for (; *s != '\0'; s++)
-	{
-		c++;
-	}
+	do {
+		if (*s == '-')
+			sign *= -1;
+		else if (*s >= '0' && *s <= '9')
+			num = num * 10 + (*s - '0');
 
-	return (c);
+		else if (num > 0)
+			break;
+	} while (*s++);
+
+	return (num * sign);
 }
